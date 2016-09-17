@@ -1,0 +1,25 @@
+#Install docker
+
+#Install gpg keys
+
+sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+#install linux-image-extra - this allows using aufs
+apt-get install linux-image-extra-$(uname -r) linux-image-extra-virtual
+
+#add to sources.list
+
+deb https://apt.dockerproject.org/repo ubuntu-xenial main
+
+#Install packages
+
+sudo apt-get update
+
+sudo apt-get purge lxc-docker
+
+sudo apt-get install docker-engine
+
+sudo service docker start
+
+docker run hello-world
+
+
