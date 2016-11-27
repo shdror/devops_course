@@ -1,0 +1,51 @@
+﻿Puppet exercise
+
+
+1. Install puppet - > sudo apt-get install puppet
+2. Create manifest in /tmp/example.pp with contents:
+file {‘/tmp/myfile’:
+        content => “Hello devops”,
+}
+      3. Puppet apply /tmp/example.pp
+      4. Cat /tmp/myfile    ----> content should be hello devops
+
+
+Exercise 2
+
+
+Create a module with your name in /etc/puppet/modules
+The module structure should be: 
+        /etc/puppet/module/NAME/ 
+                                        manifests 
+                                                    init.pp
+                                        templates
+                                                  my-config-file.erb
+                                        files
+The name of the file will be init.pp and class should look like:
+
+
+class NAME {
+   file {‘/tmp/my-config-file’:
+        content => template(‘NAME/my-config-file.erb’),
+            notify => Service[‘ntp’],
+            require => Package[‘ntp’],
+   }
+   
+   service {‘ntp’:
+                ensure => running,
+   }
+ package {‘ntp’:
+            ensure => installed,
+  }
+
+
+}
+
+
+
+
+Create another file which will run the module in /etc/puppet/manifests
+
+
+class {‘NAME’: }
+Execute the manifests -> puppet apply /etc/puppet/manifests/test.pp
