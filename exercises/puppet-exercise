@@ -1,0 +1,80 @@
+﻿Exercises - Day 1
+
+
+Puppet
+
+
+Exercise
+* Run example puppet manifest to create a file
+* Download puppet mysql module 
+   * sudo puppet module install puppetlabs-mysql
+* Create manifest that will create a mysql server
+   * vi mysql.pp 
+   * include mysql::server 
+* Use puppet mysql module 
+   * sudo Puppet apply mysql.pp
+* Make sure mysql is running
+* EXTRA:
+   * Create a database using puppet
+   * Edit mysql.pp
+   * Add to manifest
+   * tmysql::db { 'mydb':
+ user     => 'myuser',
+ password => 'mypass',
+ host     => 'localhost',
+ grant    => ['SELECT', 'UPDATE'],
+}
+   * Run puppet manifest again
+   * Puppet apply mysql.pp
+
+
+
+
+
+
+GIT
+
+
+   1. Create new branch -> git branch feature1
+   2. Checkout branch - > git checkout feature1
+   3. Create file in new branch + commit -> echo data > file
+   4. Commit file to feature -> git add file ; git commit file -m “add feature”
+   5. Checkout master -> git checkout master
+   6. Create file in master -> echo data > otherfile
+   7. Commit file in master -> git add otherfile ; git commit otherfile
+   8. Checkout feature1 -> git checkout feature1
+   9. Rebase master -> git rebase master
+   10. Checkout master -> git checkout master
+   11. Merge feature1 -> git merge feature1        
+   12. 
+
+
+
+
+
+
+
+
+
+Git
+
+
+Exercises 
+   * Clone My repo from github and run example puppet manifest
+   * Fork repo 
+   * Create merge request
+   * Push to git repo 
+   * Create branch and push branch
+   * Switch between branches 
+   * Cherry pick between branches
+
+
+Jenkins
+
+
+   * Install jenkins
+   * Create jenkins build
+   * Create jenkins slave
+   * Create Hello world build that will succeed
+   * Add param to hello world build to make it fail
+   * Add trigger to jenkins job to build on git commit
