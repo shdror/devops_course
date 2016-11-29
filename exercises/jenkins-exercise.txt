@@ -1,0 +1,31 @@
+Install jenkins using docker: 
+docker pull jenkins
+
+Create a directory to save jenkins files
+
+mkdir /tmp/jenkins
+chmod 777 /tmp/jenkins
+
+docker run -d --name jenkins -p 8080:8080 -v /tmp/jenkins:/var/jenkins_home:z -t jenkins
+
+#to get password for jenkins do: 
+docker logs jenkins
+
+#Admin password will be written in the logs 
+
+Go to jenkins in browser: 
+http://localhost:8080
+
+#login with admin and password received above
+
+add a new node : 
+manage jenkins -> manage nodes -> new nodes
+
+#This step required configuring the node with permssions for docker and jenkins if you intend to build docker images using this image
+
+
+Create git repo
+create dockerfile
+create build for docker in jenkins
+push build to hub
+
