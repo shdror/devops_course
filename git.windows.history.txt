@@ -1,0 +1,292 @@
+    1  git remote 
+    2  git remote -help
+    3  git init
+    4  git clone https://github.com/Mgolbraikh/ColmanAndroidEx3.git
+    5  cd ColmanAndroidEx3/
+    6  git status
+    7  exit
+    8  git clone https://github.com/blove/typescript-express-starter.git
+    9  git clone https://github.com/blove/typescript-express-starter.git
+   10  git clone https://github.com/blove/typescript-express-starter.git
+   11  git clone https://github.com/KunalKapadia/express-mongoose-es6-rest-api.git
+   12  git clone https://github.com/muratsu/tsrestapi.git
+   13  node -v
+   14  node -v
+   15  node -v
+   16  �
+   17  npm install -g create-react-app
+   18  create-react-app hello-world
+   19  create-react-app hello-world
+   20  create-react-app hello-world
+   21  git clone https://github.com/angular/material-start.git
+   22  cd c:
+   23  cd project/
+   24  git clone https://MrMemberBerry@bitbucket.org/gsociety/backend.git
+   25  apt-get install cifs-utils 
+   26  ping 10.0.0.251
+   27  mount -t cifs //10.0.0.251/n . -o username=hackeru,password=777
+   28  ls
+   29  cd mnt
+   30  cd /mnt/
+   31  ls
+   32  mount -t cifs //10.0.0.251/n . -o username=hackeru,password=777
+   33  ls
+   34  mount -t cifs //10.0.0.251/n .-o username=hackeru,password=777
+   35  mount -t cifs //10.0.0.251/n . -o username=hackeru,password=777
+   36  ls
+   37  ls
+   38  cd ..
+   39  cd /mnt/
+   40  ls
+   41  umount 
+   42  umount /mnt 
+   43  cd ..
+   44  umount /mnt 
+   45  ls
+   46  cd /mnt/
+   47  ls
+   48  mkdir ilan
+   49  cd ilan/
+   50  mount -t cifs //10.0.0.251/n . -o username=hackeru,password=777
+   51  cd ..
+   52  cd ilan/
+   53  ls
+   54  umount
+   55  umount -f
+   56  ls
+   57  umount /mnt/ilan 
+   58  cd ..
+   59  umount /mnt/ilan 
+   60  ls
+   61  cd ilan/
+   62  cd ~
+   63  ls
+   64  cd /c
+   65  ls
+   66  cd Users/HACKERU/
+   67  cd Documents/GitHub/devops_course/
+   68  ls
+   69  git status
+   70  git add .
+   71  git status
+   72  git config user.email "dror.shenhav@gmail.com"
+   73  git config user.name shdror
+   74  git commit
+   75  git push
+   76  git branch 
+   77  git push
+   78   git push --set-upstream origin my-devops-comments
+   79  git commit
+   80  git status
+   81  git commit -a
+   82  git push
+   83      git push --set-upstream origin my-devops-comments
+   84  cd ..
+   85  mkdir dror
+   86  cd dror && git clone https://github.com/omrisiri/devops_course.git
+   87  ls
+   88  cd devops_course/
+   89  ls
+   90  cd course_materials/
+   91  ls
+   92  cp ../../../devops_course/course_materials/05\ Docker.pptx .
+   93  git branch my_comments
+   94  git checkout my_comments 
+   95  git add .
+   96  git status 
+   97  git commit -a
+   98  git commit 
+   99  git commit 
+  100  ls -l C:/Users/HACKERU/Documents/GitHub/dror/devops_course/.git/index.lock
+  101  mv C:/Users/HACKERU/Documents/GitHub/dror/devops_course/.git/index.lock C:/Users/HACKERU/Documents/GitHub/dror/devops_course/.git/index.lock.old
+  102  git commit 
+  103  git push 
+  104  git push  --set-upstream origin my_comments
+  105  cd ../../
+  106  ls
+  107  cd ..
+  108  ls
+  109  \cd my-devops-fork/
+  110  ls
+  111  ls -la
+  112  cd devops_course/
+  113  ls -la
+  114  cd course_materials/
+  115  ls -la
+  116  cp ../../../devops_course/course_materials/05\ Docker.pptx .
+  117  git status 
+  118  git add .
+  119  git status 
+  120  git commit
+  121  fg
+  122  git commit -a
+  123  git
+  124  git 2Rmade some comments on docker presentationwq
+  125  git commit
+  126  git commit
+  127  git status 
+  128  rm C:/Users/HACKERU/Documents/GitHub/my-devops-fork/devops_course/.git/index.lock
+  129  git commit
+  130  git branch my-devops-comments
+  131  git checkout my-devops-comments
+  132  git push
+  133      git push --set-upstream origin my-devops-comments
+  134  git config
+  135  git config -l
+  136  git config user.email dror.shenhav@gmail.com
+  137  git config user.name "Dror Shenhav"
+  138  git config -l
+  139  git config --global user.name "Dror Shenhav"
+  140  git config -l
+  141  git config --global user.email dror.shenhav@gmail.com
+  142  git status 
+  143  גןר
+  144  ךד -ך
+  145  ls -l
+  146  cp ../../../devops_course/course_materials/05\ Docker.pptx .
+  147  git status 
+  148  git add .
+  149  git status 
+  150  git commit
+  151  git commit -a
+  152  git push
+  153  ls
+  154  git status
+  155  cd /c/
+  156  cd Users/HACKERU/Documents/GitHub/
+  157  git config
+  158  git config -l
+  159  cd my-newer-devops-fork/
+  160  ls
+  161  cd devops/materials/
+  162  ls
+  163  git status 
+  164  git branch my-newer-comments
+  165  git status 
+  166  ls -l
+  167  git status 
+  168  git add 03\ -\ jenkins\ .pdf 
+  169  git status 
+  170  cd ../../
+  171  git 
+  172  git fetch
+  173  ls
+  174  cd devops/
+  175  ls
+  176  ls -a
+  177  git fetch 
+  178  ls -l
+  179  ls -l materials/
+  180  git help pull
+  181  git help pull
+  182  git help 
+  183  git help -a
+  184  git help pull
+  185  git pull
+  186  ls -l examples/jenkins/builder/Dockerfile 
+  187  git branch 
+  188  git branch master 
+  189  git checkout master
+  190  git branch 
+  191  ls
+  192  git pull master
+  193  git pull 
+  194  ls
+  195   cd ..
+  196  ls -la
+  197  cd devops/
+  198  ls -a
+  199  git login
+  200  cd ../../my-devops-fork/
+  201  ls -a
+  202  cd devops_course/
+  203  ls -l
+  204  git branch 
+  205  git remote
+  206  cd -
+  207  cd ../my-newer-devops-fork/devops/
+  208  ls -a
+  209  git remote
+  210  git help remote
+  211  git status 
+  212  git add .
+  213  git status 
+  214  git remote
+  215  ls
+  216  git pull
+  217  git pull omrisiri/master shdror/devops_more
+  218  git branch --set-upstream-to=omrisiri/master shdror/devops_more
+  219  git branch --set-upstream-to=omrisiri/devops shdror/devops_more
+  220  git branch --set-upstream-to=omrisiri/origin shdror/devops_more
+  221  git push -u
+  222      git push --set-upstream origin shdror/devops_more
+  223  git sta
+  224  git status 
+  225  git commit 
+  226  git status 
+  227  git push 
+  228  git config
+  229  git config -l
+  230  git pull omrisiri/master shdror/devops_more
+  231  git branch 
+  232  git checkout shdror/devops_more
+  233  git stash
+  234  git stash
+  235  dir C:/Users/HACKERU/Documents/GitHub/my-newer-devops-fork/devops/.git/index.lock
+  236  ls -l C:/Users/HACKERU/Documents/GitHub/my-newer-devops-fork/devops/.git/index.lock
+  237  rm C:/Users/HACKERU/Documents/GitHub/my-newer-devops-fork/devops/.git/index.lock
+  238  ls -l C:/Users/HACKERU/Documents/GitHub/my-newer-devops-fork/devops/.git/index.lock
+  239  git checkout shdror/devops_more
+  240  git help stash
+  241  git stash 
+  242  docker
+  243  git status 
+  244  git branch 
+  245  git checkout shdror/devops_more
+  246  ls -ltr
+  247  cd materials/
+  248  ls -ltr
+  249  ls -ltr
+  250  git status 
+  251  cd ../../../my-devops-fork/
+  252  ls
+  253  cd devops_course/
+  254  ls
+  255  git branch 
+  256  git checkout my-devops-comments
+  257  dir
+  258  ls -l
+  259  git status 
+  260  cp -p ../../my-newer-devops-fork/devops .
+  261  ls
+  262  cp -p ../../my-newer-devops-fork/devops/* .
+  263  git add .
+  264  git status 
+  265  ls Devops 
+  266  ls -l
+  267  ls ../../my-newer-devops-fork/devops/
+  268  ls ../../my-newer-devops-fork/devops/examples/
+  269  ls ../../my-newer-devops-fork/devops/examples/jenkins/builder/Dockerfile 
+  270  cp -pr ../../my-newer-devops-fork/devops/* .
+  271  git status 
+  272  git add .
+  273  git status 
+  274  git commit
+  275  git push
+  276  git remote
+  277  cat > history.txt.for.mvn.docker.jenkins
+  278  cat >jenkins.config.xml
+  279  git add .
+  280  git status 
+  281  cat > jenkins.plugins.installed.txt
+  282  git add .
+  283  git status 
+  284  git commit 
+  285  git config -l
+  286  git config -l > git.config.list.txt
+  287  git add git.config.list.txt
+  288  git status 
+  289  git commit -m "added the config I used"
+  290  git push
+  291  history 
+  292  history > git.windows.history.txt
