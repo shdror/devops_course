@@ -1,0 +1,42 @@
+    1  mkdir dror
+    2  chmod 777 dror
+    3  docker run -v /home/student/dror:/var/jenkins_home -p 6813:8080 -d jenkins
+    4  docker ls
+    5  docker ps
+    6  docker logs d561b148544b
+    7  docker logs d561b148544b | tail
+    8  ls -l
+    9  cd dror/
+   10  ls -l
+   11  docker ps
+   12  docker logs d561b148544b
+   13  docker ps
+   14  docker logs d561b148544b
+   15  ls
+   16  ls -l
+   17  mkdir docker-maven
+   18  cd docker-maven
+   19  cat > Dockerfile
+   20  docker build .
+   21  ls -l
+   22  vi Dockerfile 
+   23  ls
+   24  ssh-keygen -h
+   25  ssh-keygen ~/dror/.ssh
+   26  ssh-keygen -f ~/dror/.ssh_keygen
+   27  ls -l ~/dror/.ssh_keygen
+   28  vi Dockerfile 
+   29  ls -l
+   30  ln -s ../.ssh_keygen authorized_keys
+   31  grep auth Dockerfile 
+   32  docker build .
+   33  ls -l 
+   34  rm authorized_keys 
+   35  cp ../.ssh_keygen authorized_keys
+   36  docker build .
+   37  cat authorized_keys 
+   38  docker build -t dror-jenkins-slave-maven .
+   39  docker images 
+   40  git config -l
+   41  history 
+
